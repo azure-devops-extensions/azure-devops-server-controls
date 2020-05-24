@@ -1,0 +1,30 @@
+// Copyright (C) Microsoft Corporation. All rights reserved.
+define("Test/ConfigurationToolbar/Resources", ["require", "exports"], function (require, exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.PeriodSelectedAriaLabel = "Period: {0}";
+    exports.OutcomeSelectedAriaLabel = "Outcome: {0}";
+    exports.MultipleOutcomeSelectedAriaLabel = "Outcome: {0} and {1} more";
+    exports.MultipleOptionsSelectedText = "{0} (+{1})";
+    exports.AllOutcomesText = "All outcomes";
+    exports.GroupBySelectedAriaLabel = "Group by: {0}";
+    exports.AllText = "All";
+    exports.PeriodLabel = "Period";
+    exports.OutcomeFilterText = "Outcome Filter";
+    exports.GroupByText = "Group by";
+    exports.HideFilterBarTitle = "Hide filter bar";
+    exports.ShowFilterBarTitle = "Show filter bar";
+    exports.Workflow = "Workflow";
+    exports.BranchText = "Branch";
+    exports.FilterNoBranch = "No branches available";
+    exports.Stage = "Stage";
+    exports.FilterNoStage = "No stages available";
+    exports.FilterByTestRun = "Test run";
+    exports.FilterNoTestRun = "No test runs available";
+    exports.FilterByTestFile = "Test file";
+    exports.FilterNoTestFile = "No test files available";
+    exports.FilterByOwner = "Owner";
+    exports.FilterNoOwner = "No owners available";
+    exports.FilterByOutcome = "Outcome";
+    exports.BackText = "Back";
+});

@@ -1,0 +1,33 @@
+// Copyright (C) Microsoft Corporation. All rights reserved.
+define("Build/Extensions/GitHub/Resources", ["require", "exports"], function (require, exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.AllRepositories = "All repositories";
+    exports.AllRepositoriesDescription = "Showing the most recently used repositories where you are a collaborator or organization member.";
+    exports.AllRepositoriesDescriptionLink = "Modify";
+    exports.AuthorizationFailure = "GitHub authorization failed";
+    exports.Authorize = "Authorize";
+    exports.AuthorizeWithOAuth = "Authorize with OAuth";
+    exports.CreateNewConnection = "Or, create a new connection";
+    exports.ConnectionNameFormat = "{0} ({1})";
+    exports.FetchingRepositories = "Fetching approximately {0} repositories from {1}";
+    exports.GitHub = "GitHub";
+    exports.GitHubApp = "GitHub App";
+    exports.GitHubLargestCommunity = "Home to the world’s largest community of developers";
+    exports.GitHubGrantPermissionDescription = "If you can\u0027t find a repository, make sure you {0}.";
+    exports.GitHubGrantPermissionDescriptionLink = "provide access";
+    exports.GrantPermission = "Grant Azure Pipelines permission to access your {0} repositories to continue.";
+    exports.InstallGitHubApp = "Install the GitHub App";
+    exports.InstallGitHubAppDescription = "You can install the GitHub App so that the connection isn\u0027t tied to your GitHub user account. This requires you to be a GitHub repository admin or organization owner.";
+    exports.InstallGitHubAppFooter = "Afterwards, you\u0027ll be able to pick up where you left off.";
+    exports.InstallGitHubAppHeader = "Or, install the Azure Pipelines app from the GitHub Marketplace";
+    exports.PersonalAccessToken = "Personal access token";
+    exports.SelectRepositoryTitle = "Select a repository";
+    exports.SelectServiceConnectionMessage = "You may also select a specific {0}.";
+    exports.SelectServiceConnectionMessageLink = "connection";
+    exports.TopRepositories = "My repositories";
+    exports.TopRepositoriesDescription = "Showing the most recently used repositories where you are a collaborator.";
+    exports.Unknown = "Unknown";
+    exports.UseExistingConnection = "Use an existing connection";
+    exports.ValidatingPermissions = "Validating repository permissions...";
+});

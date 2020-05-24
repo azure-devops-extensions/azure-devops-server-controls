@@ -1,0 +1,31 @@
+// Copyright (C) Microsoft Corporation. All rights reserved.
+define("Build/DesignerExtensions/YamlSnippetForm/Resources", ["require", "exports"], function (require, exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.Authorize = "Authorize";
+    exports.Authorizing = "Authorizing...";
+    exports.Connecting = "Connecting...";
+    exports.NeedsAuthorizing = "This subscription requires authorization";
+    exports.AzureSubscriptionPanelTitle = "Azure service connection";
+    exports.Connect = "Connect";
+    exports.Cancel = "Cancel";
+    exports.FailedToFindSnippet = "Could not find task for {0}";
+    exports.FailedToFindServiceConnection = "Failed to connect to {0}";
+    exports.AddSnippetYaml = "Add";
+    exports.CancelSnippetYaml = "Cancel";
+    exports.AzureConnectionGroupTitle = "Service connections";
+    exports.AzureSubscriptionGroupTitle = "Subscriptions";
+    exports.AzureConnectionsEmptyMessage = "No subscription or service connection found";
+    exports.FailedToLoadSnippet = "Error loading task: {0}";
+    exports.NoServiceConnections = "No existing service connections of the appropriate type could be found";
+    exports.NoResultsFound = "No results found";
+    exports.NoAzureRMResults = "No Azure service connections or subscriptions could be found";
+    exports.CreateRMTimeout = "Timed out waiting for the service connection to be ready";
+    exports.TaskReference = "About this task";
+    exports.UnsupportedSnippetMessage = "The guide for this task is not yet supported, but you can add an outline for it.";
+    exports.AddSnippetOutlineYaml = "Add outline";
+    exports.ProjectInfoNotFound = "Could not find information for the project selected";
+    exports.ResourcesCannotBeCreated = "Kubernetes resources cannot be created. Please review the template definition.";
+    exports.UnknownDatasourceError = "Unknown datasource error";
+    exports.EndpointNotFound = "The endpoint {0} cannot be found or has been deleted. Please retry the pipeline creation.";
+});

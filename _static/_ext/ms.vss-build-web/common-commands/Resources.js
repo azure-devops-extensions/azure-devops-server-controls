@@ -1,0 +1,33 @@
+// Copyright (C) Microsoft Corporation. All rights reserved.
+define("Build/Common/Commands/Resources", ["require", "exports"], function (require, exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.Cancel = "Cancel";
+    exports.Create = "Create";
+    exports.CannotBeEmptyErrorMessage = "Cannot be empty.";
+    exports.CannotEndWithPeriodErrorMessage = "Cannot end with a \u0027.\u0027.";
+    exports.ChooseFolder = "Choose folder...";
+    exports.DefinitionDescriptionTextboxLabel = "Description";
+    exports.DefinitionFolderTextboxLabel = "Select folder";
+    exports.DefinitionNameTextboxLabel = "Name";
+    exports.Delete = "Delete";
+    exports.DeleteDefinitionDialogMessage = "Are you sure? This action cannot be undone. This will permanently delete the pipeline \u0027{0}\u0027. Deletion includes all builds and associated artifacts.";
+    exports.DeleteDraftDefinitionDialogMessage = "Are you sure? This action cannot be undone. This will permanently delete the draft pipeline \u0027{0}\u0027.";
+    exports.DeleteFolderDialogMessage = "Are you sure? This action cannot be undone. This will permanently delete the folder \u0027{0}\u0027. Deletion includes all pipelines and associated builds and artifacts.";
+    exports.DeleteDefinitionDialogTitle = "Delete \u0027{0}\u0027?";
+    exports.DeleteDraftDefinitionDialogTitle = "Delete draft of \u0027{0}\u0027?";
+    exports.DeleteFolderDialogTitle = "Delete \u0027{0}\u0027?";
+    exports.DeleteDefinitionTextboxLabel = "Please type the name of the pipeline to confirm.";
+    exports.DeleteDraftDefinitionTextboxLabel = "Please type the name of the draft pipeline to confirm.";
+    exports.DeleteFolderTextboxLabel = "Please type the complete folder path to confirm.";
+    exports.FolderNamePlaceholder = "Type a folder name";
+    exports.FolderPathTextboxLabel = "Path";
+    exports.NewFolderDialogTitle = "New folder";
+    exports.OK = "OK";
+    exports.RenameDefinitionDialogTitle = "Rename/move pipeline";
+    exports.RenameFolderDialogTitle = "Rename folder";
+    exports.Save = "Save";
+    exports.SaveAsTemplateDefinitionDialogTitle = "Save as a template...";
+    exports.SelectFolder = "Select folder";
+    exports.UnallowedCharactersErrorMessage = "{0} are not allowed.";
+});

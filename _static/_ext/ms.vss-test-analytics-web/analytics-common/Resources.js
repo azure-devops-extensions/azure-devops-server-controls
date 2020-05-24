@@ -1,0 +1,35 @@
+// Copyright (C) Microsoft Corporation. All rights reserved.
+define("Test/Analytics/Common/Resources", ["require", "exports"], function (require, exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.DeletedStageIdDisplayText = "\u003cDeleted stage ID {0}\u003e";
+    exports.NoBranchText = "\u003cNo associated branch\u003e";
+    exports.NotAvailable = "Not Available";
+    exports.FilterNoOwner = "No owners available";
+    exports.OthersText = "Others";
+    exports.AllText = "All";
+    exports.TestOutcome_Failed = "Failed";
+    exports.TestOutcome_Passed = "Passed";
+    exports.TestOutcome_Inconclusive = "Inconclusive";
+    exports.TestOutcome_Aborted = "Aborted";
+    exports.TestOutcome_NotExecuted = "Not executed";
+    exports.TestOutcome_Error = "Error";
+    exports.TestOutcome_NotImpacted = "Not impacted";
+    exports.UnitInSeconds = "seconds";
+    exports.ResultCountAndPassRateText = "Trend of test results and pass rate";
+    exports.ResultCountText = "Result count";
+    exports.AverageDurationText = "Average duration";
+    exports.DisplayTextNone = "None";
+    exports.TestFileText = "Test file";
+    exports.FilterByOwner = "Owner";
+    exports.PriorityText = "Priority";
+    exports.Stage = "Stage";
+    exports.BranchText = "Branch";
+    exports.TestRunText = "Test run";
+    exports.NoOfDaysFormatString = "{0} Days";
+    exports.SevenNumberText = "7";
+    exports.FourteenNumberText = "14";
+    exports.ThirtyDays = "30";
+    exports.BuildLabel = "Build";
+    exports.ReleaseText = "Release";
+});

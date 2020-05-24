@@ -1,0 +1,37 @@
+// Copyright (C) Microsoft Corporation. All rights reserved.
+define("VSS/Features/Charts/Resources", ["require", "exports"], function (require, exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.AccessibleTabularFormButtonAvailable = "{0} chart has updated data, you can now refresh the accessible tabular form of the chart using the link.";
+    exports.AccessibleTabularFormDescription = "Refresh the accessible tabular form of the {0} chart.";
+    exports.AccessibleTabularFormUpdateSuccessful = "Accessible tabular form of the {0} chart updated successfully.";
+    exports.ChartEditor_UnavailableScreenreader = "Interactive chart is unavailable to screenreaders. Sibling table element contains screen reader available representation of the chart.";
+    exports.ChartEditor_UnavailableScreenreader_Format = "{0}. {1}. Interactive chart is unavailable to screenreaders. Sibling table element contains screen reader available representation of the chart.";
+    exports.ChartsRemainingItems = "(other)";
+    exports.HtmlTable_DateLabel = "Date";
+    exports.HtmlTable_DurationLabel = "Duration";
+    exports.HtmlTable_FailureMessage = "The alternate text-only table for this chart failed to load.";
+    exports.HtmlTable_SampleLabel = "Sample";
+    exports.HtmlTable_SeriesLabel = "Series {0}";
+    exports.HtmlTable_TabularViewDescription = "A tabular view of chart content.";
+    exports.HtmlTable_SeriesHeaderName = "Series name";
+    exports.ChartType_A11yLabel_Area = "Area chart";
+    exports.ChartType_A11yLabel_AreaRange = "Area range chart";
+    exports.ChartType_A11yLabel_Bar = "Bar chart";
+    exports.ChartType_A11yLabel_Column = "Column chart";
+    exports.ChartType_A11yLabel_ColumnLine = "Combination column and line chart";
+    exports.ChartType_A11yLabel_Histogram = "Histogram";
+    exports.ChartType_A11yLabel_Hybrid = "Chart combining 2 or more chart types";
+    exports.ChartType_A11yLabel_Line = "Line chart";
+    exports.ChartType_A11yLabel_Pie = "Pie chart";
+    exports.ChartType_A11yLabel_Scatter = "Scatter plot";
+    exports.ChartType_A11yLabel_Bubble = "Bubble chart";
+    exports.ChartType_A11yLabel_StackedArea = "Stacked area chart";
+    exports.ChartType_A11yLabel_StackedBar = "Stacked bar chart";
+    exports.ChartType_A11yLabel_StackedColumn = "Stacked column chart";
+    exports.ChartType_A11yLabel_Table = "Table";
+    exports.ChartType_A11yLabel_Funnel = "Funnel chart";
+    exports.FriendlyNumberThousandsFormat = "{0}K";
+    exports.FriendlyNumberMillionsFormat = "{0}M";
+    exports.FriendlyNumberBillionsFormat = "{0}B";
+});

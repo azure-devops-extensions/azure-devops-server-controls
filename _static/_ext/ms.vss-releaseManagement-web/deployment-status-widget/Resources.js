@@ -1,0 +1,36 @@
+// Copyright (C) Microsoft Corporation. All rights reserved.
+define("RMWidgets/DeploymentStatusWidget/Resources", ["require", "exports"], function (require, exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.DSWNoBuildsMessage = "You do not have any builds for this build pipeline.";
+    exports.DSWEnvironmentsHeader = "Stages\\Builds";
+    exports.DSWLastDeployed = "Latest deployed";
+    exports.DSWFailingSince = "Failing since";
+    exports.BuildDefinitionLabel = "Build pipeline:";
+    exports.BranchLabel = "Branch:";
+    exports.EnvironmentInfoAriaLabel = "The release pipeline is {0}. The stage is {1}. ";
+    exports.DeploymentStatusWidgetReleaseToolTip = "Release: {0}";
+    exports.DeploymentStatusWidgetEnvironmentNameToolTip = "Stage: {0}";
+    exports.DeploymentAriaLabel = "Deployment status for build {0} and stage {1} is {2}. ";
+    exports.TestResultsAriaLabel = "The test pass percentage is {0}";
+    exports.BuildInfoAriaLabel = "The build number is {0}";
+    exports.DSWTooltipBuild = "Build";
+    exports.DSWTooltipBuildStatus = "Build status";
+    exports.DSWTooltipRelease = "Release";
+    exports.DSWTooltipDeploymentStatus = "Deployment status";
+    exports.DSWTooltipNotApplicable = "N/A";
+    exports.DSWTooltipEnvironment = "Stage";
+    exports.DSWTooltipDeploymentDuration = "Deployment duration";
+    exports.DSWTooltipTestsPassed = "Tests passed";
+    exports.DSWTooltipTestRunDuration = "Test run duration";
+    exports.DSWTooltipAbortedRuns = "Aborted Runs";
+    exports.DSWBuildStatusCompleted = "Completed";
+    exports.DeploymentStatusWidgetTestsToolTip = "{0} of {1}";
+    exports.DeploymentStatus_All = "All";
+    exports.DeploymentStatus_Succeeded = "Succeeded";
+    exports.DeploymentStatus_Failed = "Failed";
+    exports.DeploymentStatus_InProgress = "In progress";
+    exports.DeploymentStatus_NotDeployed = "Not deployed";
+    exports.DeploymentStatus_PartiallySucceeded = "Partially succeeded";
+    exports.DeploymentStatus_Undefined = "Undefined";
+});

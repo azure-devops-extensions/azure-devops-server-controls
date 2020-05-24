@@ -1,0 +1,35 @@
+// Copyright (C) Microsoft Corporation. All rights reserved.
+define("Widgets/Burndown/Resources", ["require", "exports"], function (require, exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.Config_InvalidQueryValues = "VS403648: There was an issue processing your configuration. Please configure your widget and try again.";
+    exports.BurndownWidget_CompletedEffortSeriesName = "Completed";
+    exports.BurndownWidget_RemainingEffortSeriesName = "Remaining";
+    exports.BurndownWidget_HeroDescription = "Remaining";
+    exports.BurndownWidget_CompletedMetricName = "Completed";
+    exports.BurndownWidget_AverageBurndownMetricName = "Average burndown";
+    exports.BurndownWidget_AverageBurnupMetricName = "Average burnup";
+    exports.BurndownWidget_TotalScopeIncreaseMetricName = "Total Scope Increase";
+    exports.BurndownWidget_ItemsNotEstimatedMetricName = "Items not estimated";
+    exports.BurndownWidget_ProjectCompletionForecastFormat = "Projected completion: {0}";
+    exports.BurndownWidget_ProjectCompletionForecastOutsideChartFormat = "Projected completion: {0} ({1} more {2})";
+    exports.TimePeriod_IterationSingular = "iteration";
+    exports.TimePeriod_IterationPlural = "iterations";
+    exports.TimePeriod_DaySingular = "day";
+    exports.TimePeriod_DayPlural = "days";
+    exports.TimePeriod_WeekSingular = "week";
+    exports.TimePeriod_WeekPlural = "weeks";
+    exports.TimePeriod_MonthSingular = "month";
+    exports.TimePeriod_MonthPlural = "months";
+    exports.BurndownWidget_TotalScopeTrendlineSeriesName = "Total Scope";
+    exports.BurndownWidget_BurndownTrendlineSeriesName = "Burndown";
+    exports.BurnupWidget_BurnupTrendlineSeriesName = "Burnup";
+    exports.ModernWidget_PluralBacklogNameErrorFormat = "VS403645: Unable to retrieve plural backlog name. {0}";
+    exports.BurndownWidget_LearnMore = "Learn more about the Burndown Widget";
+    exports.BurndownWidget_LearnMoreLink = "https://go.microsoft.com/fwlink/?linkid=839428";
+    exports.BurnupWidget_LearnMoreLink = "https://go.microsoft.com/fwlink/?linkid=839428";
+    exports.BurndownWidgetDataManager_NoWidgetSettingsFound = "Error: Widget has no configuration settings.";
+    exports.ConfigError_NoIterations = "No iterations were found.";
+    exports.ConfigError_NoTeamsFound = "No teams were found";
+    exports.ConfigError_NoEndDateOnIteration = "An iteration could not be handled, as it was not configured with an end date";
+});

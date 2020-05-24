@@ -1,0 +1,30 @@
+// Copyright (C) Microsoft Corporation. All rights reserved.
+define("Build/Common/Library/Resources", ["require", "exports"], function (require, exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.AgentPool = "Agent pool";
+    exports.ARIALabelCopyToClipboard = "Copy to clipboard";
+    exports.AutoAuthorizeErrorMessage = "An unspecified error occurred while attempting to authorize resources.";
+    exports.CopiedToClipboardText = "Copied to clipboard";
+    exports.CopyToClipboardText = "Copy to clipboard";
+    exports.StatusAbandoned = "Abandoned";
+    exports.StatusCanceled = "Canceled";
+    exports.StatusFailed = "Failed";
+    exports.StatusQueued = "Queued";
+    exports.StatusRunning = "Running";
+    exports.StatusSkipped = "Skipped";
+    exports.StatusSuccess = "Success";
+    exports.StatusUnknown = "No runs";
+    exports.StatusWaiting = "Waiting";
+    exports.StatusWarning = "Warning";
+    exports.UnresolvedUser = "Unresolved user";
+    exports.SaveButtonLabel = "Save";
+    exports.SourceVersionTextboxTitle = "Source version";
+    exports.ConfigFileDataProviderErrorMessage = "Error retrieving config files for repository {0}.";
+    exports.SavePipelineCommentDisable = "Disable pipeline";
+    exports.SavePipelineCommentEnable = "Enable pipeline";
+    exports.SavePipelineCommentPause = "Pause pipeline";
+    exports.SavePipelineCommentUnknownStatus = "Change pipeline processing status";
+    exports.SavePipelineCommentYamlFile = "Change YAML file to {0}";
+    exports.SavePipelineErrorMessage = "An unspecified error occurred while saving the pipeline.";
+});

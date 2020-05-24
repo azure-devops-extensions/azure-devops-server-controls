@@ -1,0 +1,32 @@
+// Copyright (C) Microsoft Corporation. All rights reserved.
+define("Test/TestPlansHubRefresh/Pivots/ExecutePivot/Resources", ["require", "exports"], function (require, exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.Outcome = "Outcome";
+    exports.ID = "ID";
+    exports.Title = "Title";
+    exports.Configuration = "Configuration";
+    exports.Tester = "Tester";
+    exports.NotApplicable = "Not applicable";
+    exports.TestPoints = "Test Points";
+    exports.Passed = "Passed";
+    exports.Failed = "Failed";
+    exports.Active = "Active";
+    exports.Blocked = "Blocked";
+    exports.RunTests = "Run";
+    exports.InProgress = "InProgress";
+    exports.Paused = "Paused";
+    exports.ZeroDataPrimaryText = "Add test cases via the Define tab first!";
+    exports.ZeroDataSecondaryText = "Use Execute tab to assign and execute test points";
+    exports.ZeroDataImageText = "No tests to execute";
+    exports.TextFilterPlaceholderText = "Filter by title";
+    exports.OutcomeFilterPlaceholderText = "Outcome";
+    exports.TesterFilterPlaceholderText = "Tester";
+    exports.ConfigurationFilterPlaceholderText = "Configuration";
+    exports.AssignedToFilterPlaceholderText = "Assigned To";
+    exports.StateFilterPlaceholderText = "State";
+    exports.NoItemSelected = "You must select atleast one test point";
+    exports.UnassignedIdentity = "Unassigned";
+    exports.AssignTesterMenuItemText = "Assign tester";
+    exports.IdentityPickerPlaceholderText = "Search users";
+});

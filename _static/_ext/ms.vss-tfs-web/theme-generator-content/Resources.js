@@ -1,0 +1,30 @@
+// Copyright (C) Microsoft Corporation. All rights reserved.
+define("TFS/Samples/ThemeGenerator/Resources", ["require", "exports"], function (require, exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.BaseTheme = "Base Theme:";
+    exports.ThemeGeneratorTitle = "Theme Generator";
+    exports.PalettePivot = "Color palette";
+    exports.CustomizationsPivot = "Customizations";
+    exports.ExtensionContent = "Generated extension data";
+    exports.HeaderPrimary = "Primary";
+    exports.HeaderNeutrals = "Neutrals";
+    exports.HeaderAccent1 = "Accent1";
+    exports.HeaderAccent2 = "Accent2";
+    exports.HeaderAccent3 = "Accent3";
+    exports.HeaderBorder = "Border";
+    exports.HeaderText = "Text";
+    exports.HeaderBackground = "Background";
+    exports.HeaderCallout = "Callouts";
+    exports.HeaderCommunication = "Communication";
+    exports.HeaderComponents = "Components";
+    exports.HeaderIcons = "Icons";
+    exports.HeaderNavigation = "Navigation";
+    exports.HeaderMiscellaneous = "Miscellaneous";
+    exports.HeaderPanel = "Panels";
+    exports.HeaderStatusColors = "Status Colors";
+    exports.CustomThemeName = "My Custom Theme";
+    exports.AutoComputeShades = "Automatically compute shades:";
+    exports.On = "On";
+    exports.Off = "Off";
+});

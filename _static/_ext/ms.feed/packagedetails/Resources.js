@@ -1,0 +1,31 @@
+// Copyright (C) Microsoft Corporation. All rights reserved.
+define("Feed/PackageDetails/Resources", ["require", "exports"], function (require, exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.AriaLabel_ProvenanceBuild = "Build: {0}";
+    exports.AriaLabel_ProvenanceBuildDefinition = "Build pipeline: {0}";
+    exports.AriaLabel_ProvenanceCodeRepository = "Code repository: {0}";
+    exports.AriaLabel_ProvenanceCodeCommit = "Code commit: {0}";
+    exports.AriaLabel_ProvenanceCodeBranch = "Code branch: {0}";
+    exports.AriaLabel_ProvenanceExternal = "External package source: {0}";
+    exports.AriaLabel_ProvenanceRelease = "Release: {0}";
+    exports.AriaLabel_ProvenanceReleaseDefinition = "Release pipeline: {0}";
+    exports.Build = "Build";
+    exports.Code = "Code";
+    exports.Error_ErrorLoadingMetrics = "An internal error occurred while loading package metrics.";
+    exports.External = "External";
+    exports.In = "in";
+    exports.MetricsTotalDownload = "1 total download";
+    exports.MetricsTotalDownloads = "{0} total downloads";
+    exports.MetricsTotalUser = "1 total user";
+    exports.MetricsTotalUsers = "{0} total users";
+    exports.MetricsVersionDownload = "1 download of this version";
+    exports.MetricsVersionDownloads = "{0} downloads of this version";
+    exports.MetricsVersionUser = "1 user of this version";
+    exports.MetricsVersionUsers = "{0} users of this version";
+    exports.PackageAttributeTitle_Provenance = "Provenance";
+    exports.PackageProvenance_UnknownUser = "Unknown user";
+    exports.PackageProvenance_UsingUserAgent = "using {0}";
+    exports.Publisher = "Publisher";
+    exports.Release = "Release";
+});
